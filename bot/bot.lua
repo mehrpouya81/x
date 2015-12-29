@@ -207,10 +207,8 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
     enabled_plugins = {
-      "x",
-      "dasti_entergroup",
-      "vora_template",
-      "leave" },
+      "plugins",
+      "spam" },
     sudo_users = {91054649},
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'}
